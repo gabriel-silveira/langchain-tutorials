@@ -1,4 +1,6 @@
 .idea/
 .venv/
+__pycache__/
 
 translator/.env
+semantic-search/.env
