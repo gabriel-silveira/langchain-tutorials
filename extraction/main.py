@@ -5,6 +5,6 @@ from src.prompt import extract
 #result_person = extract(Person, text_person)
 #print(result_person)
 
-text_multiple = "My name is Jeff, my hair is black and i am 6 feet tall. Anna has the same color hair as me. Her son is John."
+text_multiple = "My name is Jeff, my hair is black and i am 6 feet tall. My friend Anna has the same color hair as me. Her son is John."
 result_people = extract(People, text_multiple)
 print(result_people)
