@@ -4,3 +4,4 @@ __pycache__/
 
 translator/.env
 semantic-search/.env
+chatbot/.env
