@@ -1,0 +1,7 @@
+langchain-core
+langchain-text-splitters
+langchain-community
+langgraph
+langchain[openai]
+langchain-openai
+bs4
