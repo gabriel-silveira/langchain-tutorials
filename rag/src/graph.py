@@ -1,5 +1,5 @@
 from langchain.chat_models import init_chat_model
-from src.vector_store import get_vector_store
+from src.store import get_vector_store
 from langchain import hub
 from langchain_core.documents import Document
 from typing_extensions import List, TypedDict

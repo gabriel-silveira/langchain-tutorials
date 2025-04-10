@@ -1,10 +1,9 @@
 import bs4
 from typing import Tuple
 from langchain_community.document_loaders import WebBaseLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
-def load_and_split(url: str, class_list: Tuple = ()):
+def load_docs(url: str, class_list: Tuple = ()):
   if url == "":
     return None
 
@@ -20,8 +19,4 @@ def load_and_split(url: str, class_list: Tuple = ()):
 
   docs = loader.load()
 
-  text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-
-  all_splits = text_splitter.split_documents(docs)
-
-  return all_splits
+  return docs
