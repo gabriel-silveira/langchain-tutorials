@@ -5,3 +5,6 @@ __pycache__/
 translator/.env
 semantic-search/.env
 chatbot/.env
+rag/.env
+rag-conversational/.env
+
