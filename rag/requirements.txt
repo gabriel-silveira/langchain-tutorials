@@ -5,3 +5,5 @@ langgraph
 langchain[openai]
 langchain-openai
 bs4
+flask
+flask_cors
